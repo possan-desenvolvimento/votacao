@@ -35,21 +35,21 @@ Enum: Utilizado para definir os status de votação de forma clara e segura.
 📂 Estrutura do Projeto
 O projeto está organizado nos seguintes pacotes para garantir uma boa separação de responsabilidades:
 
-src/
-└── main/
-    └── java/
-        └── com/
-            └── votacao/
-                ├── main/
-                │   └── AplicacaoVotacao.java (Ponto de entrada do programa - método main)
-                ├── model/
-                │   ├── Eleitor.java (Classe que representa a entidade Eleitor)
-                │   └── StatusVotacao.java (Enum para os status de voto)
-                ├── service/
-                │   ├── InteracaoUsuario.java (Lida com a entrada/saída de dados do console)
-                │   └── RegrasVotacao.java (Contém a lógica das regras de negócio de votação)
-                └── util/
-                    └── ConsoleHelper.java (Classe utilitária para operações de console)
+src/<br>
+└── main/<br>
+    └── java/<br>
+        └── com/<br>
+            └── votacao/<br>
+                ├── main/<br>
+                │   └── AplicacaoVotacao.java (Ponto de entrada do programa - método main)<br>
+                ├── model/<br>
+                │   ├── Eleitor.java (Classe que representa a entidade Eleitor)<br>
+                │   └── StatusVotacao.java (Enum para os status de voto)<br>
+                ├── service/<br>
+                │   ├── InteracaoUsuario.java (Lida com a entrada/saída de dados do console)<br>
+                │   └── RegrasVotacao.java (Contém a lógica das regras de negócio de votação)<br>
+                └── util/<br>
+                    └── ConsoleHelper.java (Classe utilitária para operações de console)<br>
 
 ▶️ Como Executar
 Para rodar este projeto em sua máquina, siga os passos abaixo:
