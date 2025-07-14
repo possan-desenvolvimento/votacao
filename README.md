@@ -56,7 +56,7 @@ Para rodar este projeto em sua máquina, siga os passos abaixo:
 
 Clone o Repositório:
 
-git clone <URL_DO_SEU_REPOSITORIO>
+git clone https://github.com/possan-desenvolvimento/votacao.git
 cd sistema-verificacao-voto # Ou o nome do seu projeto
 
 Compile o Código:
